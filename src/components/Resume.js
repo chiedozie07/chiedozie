@@ -222,7 +222,7 @@ const Resume = () => {
                     </Typography>
                     <Typography variant="subtitle1" align="center" style={{ color: "tan" }}
                     >
-                        Technologies Covered:
+                        Technologies Covered Includes:
                         HTML-5, CSS-3, JavaScript, React JS, Firebase, Node JS, Express JS, PostgreSQL, React Native(Android &
                         iOS development), GraphQL, Next.js, Gatsby.js, Graphic s Designing, Digital marketing skills…
                         <a href="skillztech19@gmail.com"><strong>skillzTech</strong></a>
