@@ -1,3 +1,89 @@
+  body {
+    height: 100vh;
+	background-image: linear-gradient(to right bottom, 
+    rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)),
+		url('./images/laptop2.webp');
+	background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+
+    /* height: auto;
+    width: auto; */
+    /* background-image: `url(${image})` 
+     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/laptop3.jpg')!important; */
+
+     /* background: rgba(0,0,0, .5);
+     heigh: 100vh
+      no-repeat center fixed, green;*/
+     /* linear-gradient(to right, #eb01a5, #d13531); */
+    /* -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover; 
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat; */
+} 
+    /* background-image: linear-gradient(to left bottom , #6FDA44 30%, #2B5468 90%); */
+
+/* page background and text color on selection */
+
+::selection {
+  background-color: #2B5468;
+  color: #6FDA44; 
+}
+
+     /* background-image: linear-gradient(to left, rgba(#6FDA44 .8), rgba(#2B5468 .8)),
+     ;
+     
+     ///////////
+     animation-timing-function: ease-in;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     animation-direction: inherit;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+
+     .heading-secondary {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+   -webkit-background-clip: text;
+	background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+    transition: all .2s;
+    
+    &:hover {
+		transform: skewY(2deg) skewX(15deg) scale(1.1);
+		text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+    }
+
+    @keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10rem);
+	}
+
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+}*/
+   
+
+
+
+
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +121,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

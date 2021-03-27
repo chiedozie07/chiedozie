@@ -1,0 +1,12 @@
+[0906/030842.290:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0906/030842.290:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0906/030842.868:ERROR:exception_snapshot_win.cc(99)] thread ID 6828 not found in process
+[0906/030842.868:ERROR:exception_snapshot_win.cc(99)] thread ID 1060 not found in process
+[0921/125039.118:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0921/125039.303:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0921/125041.056:ERROR:exception_snapshot_win.cc(99)] thread ID 5096 not found in process
+[0921/125041.056:ERROR:exception_snapshot_win.cc(99)] thread ID 11356 not found in process
+[1006/141445.402:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)
+[1006/155800.551:ERROR:process_info.cc(359)] UncheckedAllocate
+[1006/155805.001:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)
+[1010/081738.546:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
