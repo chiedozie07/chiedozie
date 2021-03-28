@@ -61,15 +61,16 @@ const footerStyles = makeStyles({
 
     footerStyles: {
         width: '250px',
-        height: '100%',
+        height: '500px',
         padding: '5px',
         background: '#233', //#fff7f7
         color: '#eee',
         textAlign: 'center',
-        marginTop: 0,
-        marginBottom: '0',
+        marginTop: '-2.6px',
+        marginLeft: '-6px',
+        marginBottom: '10px',
         fontFamily: 'arial',
-        fontSize: '13px'
+        fontSize: '12px'
     }
 
 })

@@ -1,9 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Typography, Avatar, Grid, Box} from '@material-ui/core';
 import {makeStyles} from '@material-ui/core/styles';
 import Typed from 'react-typed';
 import avatar from '../avatar.jpg';
-import TimePicker from 'react-time-picker';
+// import TimePicker from 'react-time-picker';
 
 const myStyles = makeStyles(theme=> ({
     avatar: {
@@ -60,8 +60,6 @@ const myStyles = makeStyles(theme=> ({
         color: 'skyblue',
         textTransform: 'uppercase',
         display: 'inline-block'
-
-
     },
     
     subtitle: {
@@ -83,19 +81,12 @@ const myStyles = makeStyles(theme=> ({
         textAlign: "center",
         borderTopRadius: '3rem',
         zIndex: 1
-    },
-
-    time: {
-        background: "#f7f7f7",
-        color: "white"
     }
-
 })); 
 
 const Header = () => {
-        const [value, onChange] = useState('12:30');
+    const applyMyStyles = myStyles();
 
-    const applyMyStyles = myStyles(); 
     return (
         <Box className={applyMyStyles.typedBoxContainer}>
             <Grid container justify="center">
@@ -137,12 +128,6 @@ const Header = () => {
                     "Full Electrical And Electronics Engineering Works", "Wanna learn new Programming skills? worry no more", "Am fully ready to bless you with the top notch IT skills with favorite progrmming language[...]", "Simply navigate to my contacts page,", "Provide your details and hit the action button..."]}
                     typeSpeed={40} backSpeed={60} loop /> 
             </Typography>
-                <div className={applyMyStyles.time}>
-                    <TimePicker 
-                    onChange={onChange}
-                    value={value}
-                    />
-            </div>
         </Box>
     );
 };

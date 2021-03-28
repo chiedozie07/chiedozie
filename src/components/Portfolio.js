@@ -4,12 +4,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Box, Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
 import Share from '@material-ui/icons/Share';
 import Visibility from '@material-ui/icons/Visibility';
-
 //imported project images from the image directory
 import project1 from '../images/project1.jpg';
 import project2 from '../images/project2.jpg';
 import project3 from '../images/project3.jpg';
-import project4 from '../images/project4.jpg';
 
 
 const portfolioStyles = makeStyles({
@@ -91,7 +89,7 @@ const Portfolio = () => {
                             <CardContent>
                                 <Typography gutterBottom variant="h5">Project 1</Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ea nobis. Doloribus iure deserunt similique, non voluptatibus rem, laborum aperiam aliquid dolores tempore quo nihil, magnam vel voluptate excepturi sed.
+                                   A multi-functional laon calculator web application project to solve the client's problem of determining the exact amount and interest rate of any loan issued to their customers and when overdue for repayment with respect to the duration of the laon etc
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -112,7 +110,7 @@ const Portfolio = () => {
                             <CardContent>
                                 <Typography gutterBottom variant="h5">Project 2</Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ea nobis. Doloribus iure deserunt similique, non voluptatibus rem, laborum aperiam aliquid dolores tempore quo nihil, magnam vel voluptate excepturi sed.
+                                    Company's website(static) designed with javascrit,HTML and pure CSS to showcase the products and services they renders to their valued customers and means of keeping in touch with the company.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -134,7 +132,10 @@ const Portfolio = () => {
                             <CardContent>
                                 <Typography gutterBottom variant="h5">Project 3</Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ea nobis. Doloribus iure deserunt similique, non voluptatibus rem, laborum aperiam aliquid dolores tempore quo nihil, magnam vel voluptate excepturi sed.
+                                    <ul>
+                                        <li>A fullstack React.Js robotics web application that comsumes Restful APIs fetching its data from another source(endpoint) and dinamically renders them on the client's side.</li>
+                                        <li>And also a React.Js portfolio project and lots more...</li>
+                                    </ul>
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -150,16 +151,16 @@ const Portfolio = () => {
                 <Grid item xs={12} sm={8} md={6}>
                 <Card className={applyPortfolioStyles.cardContainer}>
                     <CardActionArea> 
-                            {/* <CardMedia component="img"
-                                alt="project 1" height="140" image={project4}
-                            /> */}
                             <div className={applyPortfolioStyles.fourthProject}>
                                 <h4>Epress.Js | GraphQL | Gatsby.Js</h4>
                             </div>
                             <CardContent>
                                 <Typography gutterBottom variant="h5">Project 4</Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ea nobis. Doloribus iure deserunt similique, non voluptatibus rem, laborum aperiam aliquid dolores tempore quo nihil, magnam vel voluptate excepturi sed.
+                                    <ul>
+                                        <li>Location, products and hotel booking web application that saves users most of the major challengies they are faced with day in day out in carrying out their bussiness transactions and normal routine work activities.</li>
+                                        <li>Online office signal alert react native cross platform application which simultaniossly alerts her users for any recent/latest updates on their online platform, and runs on the web, android and iOS devices</li>
+                                    </ul> 
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
