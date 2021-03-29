@@ -93,9 +93,9 @@ const Header = () => {
                 <Box className={applyMyStyles.aboutMe} component="div" container justify="center">
                     <Typography variant="h6">
                          <Typed 
-                         strings={["A Brief Discription About <b><i>Chiedozie</i></b>:",
+                         strings={["Brief Discription About <b><i>Chiedozie</i></b>:",
                             "Simply a true definition of core tech enthusiast",
-                            "Electrical/electronics engineer(Profesion)", 
+                            "Electrical/electronics engineer(By Profesion)", 
                             "Health,safety and environment officer(HSE 1-3)", 
                             "Human resourse management associate member(HRAM)", 
                             "Profesional project manager(PMP)",
@@ -105,7 +105,7 @@ const Header = () => {
                             "He's Resiliant...",
                         "A pace setter",
                         "A Goal getter",
-                        "And a lover of God!",]}
+                        "And above all lover of God!"]}
                         typeSpeed={40} backSpeed={20} loop />
                         
                     </Typography>  
@@ -123,9 +123,9 @@ const Header = () => {
                 <Typography className={applyMyStyles.subtitle} variant="h5">
                 <Typed strings={["Full Stack Sofware Development", "Web Design", "Web Development",
                     "Android And iOS App Development",
-                    "Technical Support Engineering Works",
-                    "Technical Site Surveying/Maintenance (Telecoms)",
-                    "Full Electrical And Electronics Engineering Works", "Wanna learn new Programming skills? worry no more", "Am fully ready to bless you with the top notch IT skills with favorite progrmming language[...]", "Simply navigate to my contacts page,", "Provide your details and hit the action button..."]}
+                    "Technical Support For Engineering Works",
+                    "Technical Site Surveying/Maintenance And Installation (Telecoms)",
+                    "Full Electrical And Electronics Engineering Works", "Wanna learn new Programming skills? worry no more", "Fully ready to bless you with the top notch IT skills with your favorite progrmming language [...]", "Simply navigate to my contact page,", "Provide your details and hit the action button..."]}
                     typeSpeed={40} backSpeed={60} loop /> 
             </Typography>
         </Box>

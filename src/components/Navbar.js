@@ -144,7 +144,7 @@ const Navbar = () => {
                             <MenuIcon style={{ color: "#6FDA44" }} /> 
                     </IconButton>
                     <Typography className={beaulty.welcomeMsg} variant="h5"> 
-                            Your Most Welcome To Chiedozie's Portfolio!
+                            You're Most Welcome To Chiedozie's Portfolio!
                     </Typography>
                     <MobilRightMenuSlider anchor='right' open={state.right} onClose={toggleSlider('right', false)}> 
                     {sideList('right')}
