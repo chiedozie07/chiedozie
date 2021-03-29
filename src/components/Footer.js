@@ -108,7 +108,7 @@ const Footer = () => {
             </BottomNavigation>
             <BottomNavigation style={{ height: '100px', width: '250px', margin: '3px'}}>
                 <Typography variant="h6" className={applyFooterStyles.footerStyles}>
-                    <p>&copy; Copyright 2020, All rights reserved </p>
+                    <p>&copy; Copyright 2021, All rights reserved </p>
                     <b>Email:</b> ezidiegwuchiedozie17@gmail.com
                         <br />
                     <b>Phone:</b> +2348061167505
